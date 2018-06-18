@@ -1,0 +1,16 @@
+subprojects {
+
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    sourceCompatibility = 10
+    targetCompatibility = 10
+
+    dependencies{
+        compile 'junit:junit:4.12'
+    }
+}
+

@@ -1,0 +1,3 @@
+rootProject.name = 'spring-data-databases'
+include ':spring-data-mongodb',
+        ':spring-data-postgresql'
