@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mongo-application
+  data:
+    mongodb:
+      host: localhost
+      database: fakedb
+      port: 27017
+      repositories:
+        type: auto
+#      authentication-database: admin
+#      username: admin
+#      password: admin
+      uri: mongodb://localhost:27017/fakedb
+#      grid-fs-database: grid-db
+#      field-naming-strategy: org.springframework.data.mapping.model.CamelCaseAbbreviatingFieldNamingStrategy
